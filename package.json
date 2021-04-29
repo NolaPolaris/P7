@@ -1,0 +1,32 @@
+{
+  "name": "p7",
+  "version": "1.0.0",
+  "description": "Learning API Google Map",
+  "main": "./public/js/main.js",
+  "scripts": {
+    "test": "",
+    "build": "webpack",
+    "build:css": "postcss public/css/main.css -o public/css/build.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NolaPolaris/P7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NolaPolaris/P7/issues"
+  },
+  "homepage": "https://github.com/NolaPolaris/P7#readme",
+  "dependencies": {
+    "postcss-import": "^14.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
